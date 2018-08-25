@@ -1,0 +1,16 @@
+PODS:
+  - RJProgressHUD (0.1.0)
+
+DEPENDENCIES:
+  - RJProgressHUD (from `../`)
+
+EXTERNAL SOURCES:
+  RJProgressHUD:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RJProgressHUD: 15f6124a570daf1bca769933a1d0106583ad8222
+
+PODFILE CHECKSUM: 3d04d8ac13c477cf059e59b7fcb212f10b97f21e
+
+COCOAPODS: 1.4.0
