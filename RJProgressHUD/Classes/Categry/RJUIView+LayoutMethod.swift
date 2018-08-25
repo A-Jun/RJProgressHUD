@@ -8,8 +8,8 @@
 
 import UIKit
 /// 屏幕尺寸
-public let kScreenW = CGFloat(UIScreen.main.bounds.width)
-public let kScreenH = CGFloat(UIScreen.main.bounds.height)
+ let kScreenW = CGFloat(UIScreen.main.bounds.width)
+ let kScreenH = CGFloat(UIScreen.main.bounds.height)
 
 
 
@@ -28,7 +28,7 @@ let kSCREEN_HEIGHT_RATIO = kDevice_Is_iPhoneX ? (kScreenH - 78)/667.0 : (kScreen
 ///
 /// - Parameter width: 基础宽度 以iPhone6为基础
 /// - Returns: 适配后的宽度
-public func kAutoWid(_ width:CGFloat) -> CGFloat {
+func kAutoWid(_ width:CGFloat) -> CGFloat {
     return width * kSCREEN_WIDTH_RATIO
 }
 
@@ -36,13 +36,12 @@ public func kAutoWid(_ width:CGFloat) -> CGFloat {
 ///
 /// - Parameter height: 基础高度 以iPhone6为基础
 /// - Returns: 适配后的高度
-public func kAutoHei(_ height:CGFloat) -> CGFloat {
+func kAutoHei(_ height:CGFloat) -> CGFloat {
     return height * kSCREEN_HEIGHT_RATIO
 }
-
-public extension UIView{
+extension UIView{
     /// x坐标
-    public var x : CGFloat{
+     var x : CGFloat{
         get{
             return frame.origin.x
         }
@@ -52,7 +51,7 @@ public extension UIView{
     }
     
     /// Y坐标
-    public var y : CGFloat{
+     var y : CGFloat{
         get{
             return frame.origin.y
         }
@@ -62,7 +61,7 @@ public extension UIView{
     }
     
     /// 宽
-    public var width : CGFloat{
+     var width : CGFloat{
         get{
             return frame.size.width
         }
@@ -72,7 +71,7 @@ public extension UIView{
     }
     
     /// 高
-    public var height : CGFloat{
+     var height : CGFloat{
         get{
             return frame.size.height
         }
@@ -82,7 +81,7 @@ public extension UIView{
     }
     
     /// 尺寸
-    public var size   : CGSize {
+     var size   : CGSize {
         get{
             return frame.size
         }
@@ -92,7 +91,7 @@ public extension UIView{
     }
     
     /// 坐标
-    public var origin   : CGPoint {
+     var origin   : CGPoint {
         get{
             return frame.origin
         }
@@ -102,7 +101,7 @@ public extension UIView{
     }
    
     /// 中心点 X坐标
-    public var centerX   : CGFloat {
+     var centerX   : CGFloat {
         get{
             return self.center.x
         }
@@ -112,7 +111,7 @@ public extension UIView{
     }
     
     /// 中心点 Y坐标
-    public var centerY   : CGFloat {
+     var centerY   : CGFloat {
         get{
             return self.center.y
         }

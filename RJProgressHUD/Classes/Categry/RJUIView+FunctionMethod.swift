@@ -7,15 +7,14 @@
 //
 
 import UIKit
-
-public extension UIView{
+extension UIView{
     /// 圆角裁剪
     ///
     /// - Parameters:
     ///   - radius: 角度
     ///   - borderWidth:边界宽度
     ///   - borderColor: 边界颜色
-    public func cornerCutWith(_ radius:CGFloat, _ borderWidth:CGFloat = 0.1, _ borderColor:UIColor = .clear) -> Void {
+     func cornerCutWith(_ radius:CGFloat, _ borderWidth:CGFloat = 0.1, _ borderColor:UIColor = .clear) -> Void {
         
         let  lineWidth = 2 * borderWidth
         let cutLayer = CAShapeLayer()
