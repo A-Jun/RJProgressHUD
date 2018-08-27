@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
+import RJProgressHUD
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        RJProgressHUD.showMessage("hahahhah", in: view)
     }
 
     override func didReceiveMemoryWarning() {
