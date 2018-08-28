@@ -1,5 +1,5 @@
 PODS:
-  - RJProgressHUD (0.1.2)
+  - RJProgressHUD (0.1.3)
 
 DEPENDENCIES:
   - RJProgressHUD (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  RJProgressHUD: 1757a6413d1071a209bb1c985ce8b0b2a5818dcd
+  RJProgressHUD: 23848956e6831a7f070e34527839f169bbc4cb18
 
 PODFILE CHECKSUM: 3d04d8ac13c477cf059e59b7fcb212f10b97f21e
 
